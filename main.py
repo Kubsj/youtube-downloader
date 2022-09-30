@@ -1,7 +1,7 @@
 from pytube import YouTube
 from colorama import Fore
-import title
-title.titlescreen("RED")
+import ascii
+ascii.titlescreen("RED")
 print(Fore.BLUE + "Please input your youtube link below:")
 link = input(">")
 print("")
