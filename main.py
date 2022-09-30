@@ -1,11 +1,10 @@
-from asyncio.windows_events import NULL
-from cgitb import reset
 from pytube import YouTube
 from colorama import Fore
-import ascii
-
-
-ascii.titlescreen()
+try:
+    import ascii
+    ascii.titlescreen()
+except:
+    print(Fore.RED + "YOUTUBE DOWNLOADER")
 
 while True:
     try:
