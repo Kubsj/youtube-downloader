@@ -4,8 +4,7 @@ try:
     import ascii
     ascii.titlescreen()
 except:
-    print(Fore.RED + "YOUTUBE DOWNLOADER")
-
+    print("Could not access required file: 'ascii.py'\n Please verify file integrity")
 while True:
     try:
         print(Fore.BLUE + "Please input your youtube link below:")
